@@ -1,9 +1,13 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+//Pacotes core do angular
+import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { HttpParams, provideHttpClient, withFetch } from '@angular/common/http';
 
-import { routes } from './app.routes';
+//importa a constante routeConfig
+import routeConfig from './app.routes';
+
 import { provideClientHydration } from '@angular/platform-browser';
-
+//Exporta o route config para o arquivo de configuração da aplicação
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideClientHydration()]
+  providers: [provideRouter(routeConfig), provideHttpClient(withFetch()),HttpParams]
 };

@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    margin: 0;
+    color: #000000;
+ }
+
+  .header{
+    background: #01305a;
+    color: #ECF3F9;
+  }
+
+  .title{
+    margin-top: 1.5rem;
+  }
+
+  .sub-title{
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .card-content{
+    margin-top: 2rem;
+  }
+
+  .welcome-message{
+    margin-top: 4rem;
+  }
+  
+  .card-body {
+    height: 50vh; /* 50% da altura da viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaça os elementos: início, centro e final */
+  }
+
+  .btn-wallet {
+    font-size: 1.5rem; /* Aumenta o tamanho do texto */
+    padding: 15px 30px; /* Aumenta o padding (espaçamento interno) */
+}
+
+.btn-buy{
+    font-size: 1.5rem; /* Aumenta o tamanho do texto */
+    padding: 15px 30px; /* Aumenta o padding (espaçamento interno) */
+    margin-top: 4rem;
+}
+
+.btn-page{
+    color: #ECF3F9;
+}
+ 
+  
