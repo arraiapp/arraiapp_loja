@@ -4,7 +4,7 @@ export interface Register{
     email: string,
     cpf : string,
     password : string,
-    admin : boolean
+    Admin : boolean
 }
 
 export type Registers = Register
