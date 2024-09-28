@@ -42,7 +42,7 @@ import { HomePageService } from '../home-page/home-page.service';
   styleUrl: './login.component.scss',
 })
 export class LoginComponent {
-
+    
     loginLink: string = '';
 
     form: FormGroup = new FormGroup({
