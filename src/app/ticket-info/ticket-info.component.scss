@@ -1,0 +1,72 @@
+/* Estilizando o body para ocupar toda a altura da tela */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Centralizando o título mais verticalmente */
+  h2 {
+    margin-top: 100px; /* Ajuste para centralizar melhor */
+    text-align: center;
+    font-size: 2rem; /* Título maior */
+  }
+  
+  /* Formulário centralizado verticalmente */
+  form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo dos campos de entrada, tornando-os maiores */
+  form div {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels maiores para "Descrição" e "Valor" */
+  label {
+    font-size: 1.5rem; /* Aumentando o tamanho dos textos dos labels */
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input {
+    height: 50px; /* Altura maior dos campos */
+    font-size: 1.2rem; /* Aumentando o tamanho do texto dos inputs */
+    padding: 10px;
+  }
+  
+  /* Alinhando o botão de cadastro e o link "Voltar" mais centralizados e maiores */
+  form button, .link-return {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Botão de cadastro com margem inferior para o link "Voltar" */
+  form button {
+    height: 70px; /* Aumentar o tamanho do botão */
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-size: 1.5rem; /* Aumentando o texto do botão */
+  }
+  
+  /* Centralizando o link "Voltar" */
+  .link-return {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+  }
+  
+  /* Para dispositivos móveis, ajustar os tamanhos de input e botões */
+  @media (max-width: 768px) {
+    form div, form button, .link-return {
+      width: 95%;
+    }
+  }

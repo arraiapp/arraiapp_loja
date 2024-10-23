@@ -4,6 +4,8 @@ import { Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { RegisterComponent } from './register/register.component';
+import { TicketComponent } from './ticket/ticket.component';
+import { TicketInfoComponent } from './ticket-info/ticket-info.component';
 
 // Definindo contante com as lista das rotas
 // path : Nome da página que fica na URL
@@ -24,6 +26,16 @@ export const routeConfig: Routes = [
         path: 'register',
         component: RegisterComponent,
         title: 'Register Page'
+    },
+    {
+        path: 'ticket',
+        component: TicketComponent,
+        title: 'Ticket page'
+    },
+    {
+        path: 'ticket-info/:ticketId',
+        component: TicketInfoComponent,
+        title: 'Ticket info page'
     }
 ];
 
