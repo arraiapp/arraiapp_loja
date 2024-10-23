@@ -1,0 +1,41 @@
+/* Bordas arredondadas nas tabelas */
+
+  
+  /* Bordas arredondadas no cabeçalho */
+  .rounded-head th {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  /* Estilo adicional para tabelas mobile */
+  .table td, .table th {
+    vertical-align: middle;
+    padding: 1rem;
+  }
+  
+  /* Para garantir que as bordas fiquem arredondadas mesmo em dispositivos menores */
+  .table-responsive {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+
+/* Ajuste no botão para centralizar e ficar no final da página */
+.fixed-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  button {
+    height: 50px;
+    font-size: 1.1rem;
+  }
+
+  .link-return{
+    font-size: 1.2rem; 
+
+  }

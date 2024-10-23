@@ -61,7 +61,7 @@ export class LoginComponent {
       private router : Router
     ) {}
 
-      submit(form: FormGroupDirective){
+    submit(form: FormGroupDirective){
     if (form.valid){
       this.loginService
       .login(form.value)

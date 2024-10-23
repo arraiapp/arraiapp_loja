@@ -22,7 +22,7 @@ import { RouterModule, Router } from '@angular/router';
         </div>
         <div class="d-grid gap-2 btn-page">
           <button type="button" (click)="navegateUserRegister()" class="btn btn-primary btn-lg btn-block btn-buy">Cadastar usuário</button>
-          <button type="button" class="btn btn-secondary btn-lg btn-success btn-buy">Cadastar ficha</button>
+          <button type="button" (click)="navegateUserTicket()" class="btn btn-secondary btn-lg btn-success btn-buy">Cadastar ficha</button>
           <button type="button" class="btn btn-secondary btn-lg btn-info btn-buy">Ler produto</button>
         </div>
       </div>
@@ -51,6 +51,14 @@ export class HomePageComponent implements OnInit{
       alert("Apenas administradores podem cadastrar usuários!")
     }else{
       this.router.navigate(["/register"]);
+    }
+  }
+
+  navegateUserTicket(){
+    if (this.userData.Admin == false){
+      alert("Apenas administradores podem cadastrar fichas!")
+    }else{
+      this.router.navigate(["/ticket"]);
     }
   }
 
