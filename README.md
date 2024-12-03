@@ -12,9 +12,9 @@ Esse reposítorio se refere a parte do ADMIN, onde o mesmo pode fazer o controle
 
 📌 [Link da documentação completa](https://example.com)
 
-📌 [Link do frontend da página do usuário](https://example.com)
+📌 [Link do frontend da página do usuário](https://github.com/arraiapp/arraiapp_front)
 
-📌 [Link do backend da aplicação](https://example.com)
+📌 [Link do backend da aplicação](https://github.com/arraiapp/arraiapp)
 
 ## 🚀 Como rodar a aplicação
 
