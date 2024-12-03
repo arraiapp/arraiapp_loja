@@ -26,6 +26,11 @@ import { Registers } from './register-interface';
         <input type="email" class="form-control" formControlName="email" placeholder="Digite seu email" required>
       </div>
 
+      <div>
+        <label for="phone" class="form-label">Telefone</label>
+        <input type="text" class="form-control" formControlName="phone" placeholder="Digite seu telefone" required>
+      </div>
+
 
       <div>
         <label for="cpf" class="form-label">CPF</label>
@@ -37,13 +42,6 @@ import { Registers } from './register-interface';
         <label for="senha" class="form-label">Senha</label>
         <input type="password" class="form-control" formControlName="password" placeholder="Digite sua senha" required>
       </div>
-
-
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" formControlName="Admin" >
-        <label class="form-check-label" for="admin">É Admin?</label>
-      </div>
-
 
       <button type="submit" class="btn btn-primary" >Cadastrar</button>
     </form> 
@@ -65,14 +63,16 @@ export class RegisterComponent {
     this.form = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
+      phone: ['', [Validators.required,]],
       cpf: ['', [Validators.required, Validators.minLength(11)]],
       password: ['', Validators.required],
-      Admin: [false]
+      Admin: [true]
     });
   }
 
   get name() {return this.form.get("name")}
   get email() {return this.form.get("email")}
+  get phone() {return this.form.get("email")}
   get cpf() {return this.form.get("cpf")}
   get password() {return this.form.get("password")}
   get Admin() {return this.form.get("Admin")}
