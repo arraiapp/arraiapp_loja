@@ -1,27 +1,42 @@
-# ArraiappLoja
+# Front-end da página do aministrador ARRAIAAPP 🎉🌽
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+## 📋 Pré-requisitos
 
-## Development server
+-- Angular (v18)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Descrição do Projeto
 
-## Code scaffolding
+Arraiapp é uma aplicação web focada em mobile de autoatendimento desenvolvida para facilitar a venda de fichas em festas juninas. Com uma interface simples e intuitiva, o sistema permite aos usuários comprar fichas de maneira prática, agilizando a experiência no evento e reduzindo filas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esse reposítorio se refere a parte do ADMIN, onde o mesmo pode fazer o controle das fichas e cadastrar novos usuários.
 
-## Build
+📌 [Link da documentação completa](https://example.com)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+📌 [Link do frontend da página do usuário](https://example.com)
 
-## Running unit tests
+📌 [Link do backend da aplicação](https://example.com)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Como rodar a aplicação
 
-## Running end-to-end tests
+```bash
+# Clone este repositório
+$ git clone <url-do-repositorio> 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nome-do-projeto
 
-## Further help
+# Instale as dependências
+$ npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# O servidor iniciará na porta:4200 - acesse <http://localhost:4200>
+```
+
+## ✒️ Autores
+
+* **Nicholas Gabriel Meneses Brito** - [github](https://github.com/RobertoWillian) e [linkedin](https://www.linkedin.com/in/robert-willian-costa-silva)
+* **Robert Willian Costa Silva** - [github](https://github.com/RobertoWillian) e [linkedin](https://www.linkedin.com/in/robert-willian-costa-silva)
+
+
