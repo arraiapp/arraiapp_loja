@@ -21,9 +21,8 @@ import { RouterModule, Router } from '@angular/router';
           <h2>Bem vindo, {{this.userData.name}}!</h2>
         </div>
         <div class="d-grid gap-2 btn-page">
-          <button type="button" (click)="navegateUserRegister()" class="btn btn-primary btn-lg btn-block btn-buy">Cadastar usuário</button>
-          <button type="button" (click)="navegateUserTicket()" class="btn btn-secondary btn-lg btn-success btn-buy">Cadastar ficha</button>
-          <button type="button" class="btn btn-secondary btn-lg btn-info btn-buy">Ler produto</button>
+          <button type="button" (click)="navegateUserRegister()" class="btn btn-primary btn-lg btn-block btn-buy">Cadastrar usuário</button>
+          <button type="button" (click)="navegateUserTicket()" class="btn btn-secondary btn-lg btn-success btn-buy">Cadastrar ficha</button>
         </div>
       </div>
       <div *ngIf="!userData">
