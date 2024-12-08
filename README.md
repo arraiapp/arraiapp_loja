@@ -2,7 +2,8 @@
 
 ## 📋 Pré-requisitos
 
--- Angular (v18)
+- Angular (v18)
+- [Git](https://git-scm.com)
 
 ## Descrição do Projeto
 
@@ -29,10 +30,18 @@ $ cd nome-do-projeto
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm start
+$ ng serve --port 500
 
 # O servidor iniciará na porta:4200 - acesse <http://localhost:4200>
 ```
+
+## 🛠 Tecnologias Utilizadas
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)  
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)  
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## ✒️ Autores
 
