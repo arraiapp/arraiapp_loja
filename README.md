@@ -30,9 +30,9 @@ $ cd nome-do-projeto
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ ng serve --port 500
+$ ng serve --port 5000
 
-# O servidor iniciará na porta:4200 - acesse <http://localhost:4200>
+# O servidor iniciará na porta:5000 - acesse <http://localhost:5000>
 ```
 
 ## 🛠 Tecnologias Utilizadas
